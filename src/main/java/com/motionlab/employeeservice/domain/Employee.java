@@ -9,5 +9,4 @@ public record Employee(
         String lastName,
         @NotBlank(message = "The national id must be provided")
         String nationalId) {
-
 }
